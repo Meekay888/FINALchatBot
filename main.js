@@ -2,9 +2,10 @@ function chat() {
     // greet the user
   alert("Ola!");
   
-  // ask their name
-  var name = prompt("What is your name?");
-  alert("Hello, " +  "name");
+
+ // ask their name
+  var yourName =  prompt("What is your name?");
+   alert("Hello, " +  yourName + "!");
   
   // ask their fave food
   var food = prompt("What is your favorite food?");
